@@ -46,7 +46,7 @@ local InfiniteMoney = function()
 	end
 
 	local function FakeExit()
-		Ui.Notify("Infinite Money failed: This server has datastores GLITCHED. Please join a different server!", "Server Hop Required", 10)
+		Ui.Notify("Infinite Money failed: This server has datastores GLITCHED. Please join a different server!", "Server Hop Required", 10) -- Read the function name to understand. Kinda pointless now that it's leaked.
 
 		Thread.Sleep(250)
 		Rio.InfiniteMoney = false
@@ -56,7 +56,7 @@ local InfiniteMoney = function()
 		if Utility.GetBankMoney() >= 2750 then
 			Actions.WithdrawCash(2750)
 		else
-			Ui.Notify("WARNING: ❗❗❗BROKE NIGGA DETECTED❗❗❗", "HAHA BROKE NIGGA", 5)
+			Ui.Notify("You do not have enough money to buy the Kool-Aid supplies. You need at least $2,750 to proceed.", "Insufficient Funds", 5)
 			return Thread.Sleep(250);
 		end
 	end

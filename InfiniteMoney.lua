@@ -91,8 +91,6 @@ local InfiniteMoney = function()
 	Thread.Sleep(250)
 
 	for It = 1, #CookOrder do
-		warn(CookOrder[It])
-
 		LocalCharacter.Humanoid:EquipTool(CookOrder[It])
 		Thread.Sleep(500)
 

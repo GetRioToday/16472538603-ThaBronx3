@@ -10,6 +10,11 @@ https://www.roblox.com/games/16472538603/THA-BRONX-3
 # Available Scripts:
 - InfiniteMoney.lua: A fully functional Kool-Aid autofarm that produces the kool aid required for the Infinite Money vulnerability. Once cooking is finished, it performs the vulnerability by selling it.
 - InfiniteMoney-LTK HUb.lua: A raw version of the Infinite Money vulnerability created by cytox at LTK Hub.
+- NoRagdoll.lua: Prevents you from ragdolling due to fall damage. Other types of ragdolling will still happen.
+
+### New scripts from our v0.3 framework, utilizing a OOP classing system & feature objects.
+- InstantPrompts.lua: Makes all Proximityprompts instant, including newly added. This github version does not detect .Destroying and remove ProximityPrompts from the cache (memory leak).
+- InstantEquip.lua: Inherits from the GunSettings absract class - detects all guns and modifies their settings to achieve instant equip time.
 
 ⚠️ Globals/utility functions are not provided in either version and must be implemented yourself.
 

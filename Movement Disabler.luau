@@ -1,6 +1,13 @@
 local RunService = game:GetService("RunService")
+local Players = game:GetService("Players")
 
-local Character = game.Players.LocalPlayer.Character;
+local LocalClient = Players.LocalPlayer;
+while not LocalClient do
+    Players.PlayerAdded:Wait()
+    LocalClient = Players.LocalPlayer;
+end
+
+local Character = LocalClient.Character;
 local RootPart = Character.HumanoidRootPart;
 
 RunService.PreSimulation:Connect(function()

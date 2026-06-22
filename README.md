@@ -7,10 +7,13 @@ https://www.roblox.com/games/16472538603/THA-BRONX-3
 
 **Experience ID**: 16472538603
 
-# Available Scripts:
-⚠️ Globals/utility functions and classes are not in all of these scripts. You must implement them yourself.
+# ⚠️ Update (6/22/2026)
+Tha Bronx 3 has made signifiant map changes, as well as anticheat (removal) changes. Due to this, the code listed in this repo may no longer be functional, and sooner rather than later, the rest of the functional code may stop working. Use the code as **a base that you understand**, rather than directly copying it, to ensure your scripts remain functional.
 
-These scripts are outdated from many, many sources ago - but still work:
+# Available Scripts:
+ℹ️ Global, utility functions, and classes, **are not provided in most of these scripts**. You must implement them yourself.
+
+These scripts are outdated from many, many sources ago - but still work at the time of publication:
 - [Infinite Money](InfiniteMoney.lua): A fully functional Kool-Aid autofarm that produces the kool aid required for the Infinite Money vulnerability. Once cooking is finished, it performs the vulnerability by selling it.
 - [InfiniteMoney (LTK Hub)](InfiniteMoney-LTK%20Hub.lua): A raw version of the Infinite Money vulnerability created by cytox at LTK Hub.
 - [No Ragdoll / No Fall Damage](No%20Ragdoll.lua): Prevents you from ragdolling due to fall damage only. Other types of ragdolling will still happen.
